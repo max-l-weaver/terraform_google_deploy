@@ -26,3 +26,10 @@ variable "main_image" {
 	default = "ubuntu-os-cloud/ubuntu-1604-xenial-v20161011"
 }
 
+variable "install_script_dest_path" {
+	default = "/tmp/install.sh"
+}
+
+variable "install_script_src_path" {
+	default = "scripts/install.sh"
+}
