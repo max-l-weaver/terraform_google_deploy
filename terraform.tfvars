@@ -1,0 +1,7 @@
+region = "europe-west1"
+zone = "europe-west1-c"
+project_name = "infect-testing"
+credentials_file_path = "~/.gcloud/infect-testing-0ab84e4dfaab.json"
+public_key_path = "~/.ssh/gcloud_id.pub"
+private_key_path = "~/.ssh/gcloud_id"
+main_image = "ubuntu-os-cloud/ubuntu-1604-xenial-v20161011"
